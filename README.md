@@ -5,7 +5,7 @@
 
 ## 🖥️ Demo
 <p align="center">
-  <img src="./screen1.png" width="900" />
+  <img src="./Demo/screen1.png" width="900" />
   <p align="center"><a href='https://nickyeromin.github.io/GenPass/'><b>👉Project here👈</b></a></p>
 </p>  
 
