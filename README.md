@@ -1,16 +1,17 @@
-# React + Vite
+# GenPass
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📚About the Project
+**GenPass** is a simple and practical project created to improve frontend development skills. The application generates random passwords based on user-defined rules, helping users quickly create secure password combinations.
 
-Currently, two official plugins are available:
+## 🖥️ Demo
+<p align="center">
+  <img src="./screen1.png" width="900" />
+  <p align="center"><a href='https://nickyeromin.github.io/GenPass/'><b>👉Project here👈</b></a></p>
+</p>  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📦 Technologies
+- **HTML5** — markup and structure rendering
+- **CSS3** — layout, styling, and responsive design
+- **JavaScript** — random password generation logic
+- **React** — component-based architecture
+- **Vite** — fast development server and build tool
