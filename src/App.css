@@ -1,0 +1,133 @@
+:root {
+	--main-color-500: #1ea9f9;
+	--main-color-700: #0a78d7;
+	--main-color-300: #4d9fd2;
+}
+.conteiner {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#root {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	max-width: 1280px;
+	margin: 0 auto;
+	padding: 2rem;
+	text-align: center;
+}
+
+.password-box {
+	justify-content: space-between;
+	height: auto;
+	width: 600px;
+	border-radius: 7px;
+	padding: 7px;
+	box-shadow: rgb(184, 185, 184) -1px 4px 10px -1px;
+	margin: 14px;
+}
+
+#password {
+	margin: 7px;
+	/* width: 300px; */
+}
+
+button {
+	height: 50px;
+	width: auto;
+	margin-right: 3.5px;
+	margin-left: 3.5px;
+	font-weight: bold;
+	color: black;
+}
+
+#update {
+	border: 0;
+	background-color: white;
+}
+
+@keyframes rotate {
+	0% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(180deg);
+	}
+}
+
+#copy {
+	width: 125px;
+	background-color: var(--main-color-500);
+	border: 0;
+	border-radius: 7px;
+	&:hover {
+		background-color: var(--main-color-700);
+	}
+	&:active {
+		background-color: var(--main-color-300);
+	}
+}
+
+svg {
+	height: auto;
+	width: 30px;
+}
+
+.rotate-animation {
+	animation: rotate 0.3s linear;
+}
+
+.lengthPass {
+	display: inline-block;
+	width: 2ch;
+}
+
+.controlBox span {
+	margin: 7px;
+}
+
+.logo {
+	height: auto;
+	width: 500px;
+}
+
+@media screen and (max-width: 395px) {
+	#root {
+		width: 350px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.password-box {
+		display: block;
+		width: 350px;
+		height: auto;
+		white-space: normal; /* разрешает перенос строк */
+		word-wrap: break-word; /* переносит длинные слова */
+		overflow-wrap: break-word; /* современный аналог */
+	}
+	.controlBox {
+		font-size: 24px;
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+	}
+	button {
+		margin: 7px;
+	}
+  #update{
+    background-color: none;
+  }
+  .logo{
+    width: 300px;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #fff !important;
+    color: #000 !important;
+  }
+}
+
