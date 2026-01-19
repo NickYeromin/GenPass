@@ -152,6 +152,7 @@ function App() {
 						checked={isUpperCase}
 						onChange={(e) => {
 							setIsUpperCase(e.target.checked);
+							handleGeneration();
 						}}
 					/>
 					Верхний регистр
@@ -162,6 +163,7 @@ function App() {
 						checked={isLowerCase}
 						onChange={(e) => {
 							setIsLowerCase(e.target.checked);
+							handleGeneration();
 						}}
 					/>
 					Нижний регистр
@@ -172,6 +174,7 @@ function App() {
 						checked={isNums}
 						onChange={(e) => {
 							setIsNums(e.target.checked);
+							handleGeneration();
 						}}
 					/>
 					Цифры
@@ -182,6 +185,7 @@ function App() {
 						checked={isSymbols}
 						onChange={(e) => {
 							setIsSymbols(e.target.checked);
+							handleGeneration();
 						}}
 					/>
 					Символы
